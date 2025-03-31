@@ -30,6 +30,12 @@ Data::Data(int newRecord, int newID,
 	mUnits = newUnits;
 	mProgram = newProgram;
 	mLevel = newLevel;
+	mNumAbsences = newNumAbsences;
+	
+	while (mAbsenceDates.empty() != true)
+	{
+		mAbsenceDates.pop();
+	}
 }
 
 Data::Data(Data& newData)
@@ -59,6 +65,7 @@ Data::Data(Data& newData)
 	mUnits = newData.mUnits;
 	mProgram = newData.mProgram;
 	mLevel = newData.mLevel;
+	mNumAbsences = newData.mNumAbsences;
 	mAbsenceDates = newData.mAbsenceDates;
 }
 

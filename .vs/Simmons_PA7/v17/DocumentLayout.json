@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Data.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|solutionrelative:Simmons_PA7\\Data.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\List.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|solutionrelative:Simmons_PA7\\List.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Data.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|solutionrelative:Simmons_PA7\\Data.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Node.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|solutionrelative:Simmons_PA7\\Node.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Data.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|solutionrelative:Simmons_PA7\\Data.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5908EE2E-899E-4CDE-87B1-CAE50D71DECB}|Simmons_PA7\\Simmons_PA7.vcxproj|C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,37 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Data.cpp",
-              "DocumentMoniker": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Data.cpp",
-              "RelativeDocumentMoniker": "Simmons_PA7\\Data.cpp",
-              "ToolTip": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Data.cpp",
-              "RelativeToolTip": "Simmons_PA7\\Data.cpp",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAkwLYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-31T01:07:47.787Z",
+              "DocumentIndex": 0,
+              "Title": "List.hpp",
+              "DocumentMoniker": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\List.hpp",
+              "RelativeDocumentMoniker": "Simmons_PA7\\List.hpp",
+              "ToolTip": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\List.hpp",
+              "RelativeToolTip": "Simmons_PA7\\List.hpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAGEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T05:29:36.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Node.hpp",
+              "DocumentMoniker": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Node.hpp",
+              "RelativeDocumentMoniker": "Simmons_PA7\\Node.hpp",
+              "ToolTip": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Node.hpp",
+              "RelativeToolTip": "Simmons_PA7\\Node.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T04:23:56.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Data.hpp",
               "DocumentMoniker": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Data.hpp",
               "RelativeDocumentMoniker": "Simmons_PA7\\Data.hpp",
               "ToolTip": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\Data.hpp",
               "RelativeToolTip": "Simmons_PA7\\Data.hpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-30T23:42:48.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\simmo\\OneDrive\\Documents\\CPT_S_122\\Programming_Assignments\\PA7\\Simmons_PA7\\Simmons_PA7\\main.cpp",
               "RelativeDocumentMoniker": "Simmons_PA7\\main.cpp",

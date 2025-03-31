@@ -26,5 +26,11 @@
     <ClInclude Include="Data.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Node.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
