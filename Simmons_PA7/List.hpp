@@ -3,7 +3,7 @@
 * Course: Cpt S 122
 * Date: 03/21/2025
 * TA: Berkeley Conkling
-* Assignment: PA6 with extra credit
+* Assignment: PA7
 ******************************************************************************************/
 
 #pragma once
@@ -29,7 +29,8 @@ public:
     void setHeadPtr(Node<T>* const newPtr);
 
     //member functions
-    void insert(Node<T>* const pNode, T newData);
+    void insert(T newData);
+    bool deleteList(Node<T>* pNode);
     //void print();
 
 private:
@@ -59,21 +60,6 @@ List<T>& List<T>::operator=(const List& rhs)
 template<class T>
 List<T>::~List()
 {
-    Node<T>* pTemp = mpHead,
-             pPrev = mpHead;
-
-    while (mpHead != nullptr)
-    {
-        while (pTemp->getNextPtr() != nullptr)
-        {
-            pPrev = pTemp;
-            pTemp = pTemp->getNextPtr();
-        }
-        delete pTemp;
-        pPrev.setNextPtr(nullptr);
-        pTemp = mpHead;
-        pPrev = mpHead;
-    }
 }
 
 template<class T>
@@ -89,14 +75,14 @@ void List<T>::setHeadPtr(Node<T>* const newPtr)
 }
 
 template<class T>
-void List<T>::insert(Node<T>* const pNode, T newData)
+void List<T>::insert(T newData)
 {
-    Node<T>* pTemp = pNode,
-        pMem = new Node(newData, nullptr);
+    Node<T>* pTemp = this->mpHead,
+             *pMem = new Node<T>(newData, nullptr);
 
     if (mpHead == nullptr)
     {
-        mpHead = new Node<T>(newData, nullptr);
+        mpHead = pMem;
     }
     else
     {
@@ -107,4 +93,24 @@ void List<T>::insert(Node<T>* const pNode, T newData)
 
         pTemp->setNextPtr(pMem);
     }
+}
+
+template<class T>
+bool List<T>::deleteList(Node<T>* pNode)
+{
+    bool deleteTest = false;
+
+    if (pNode == nullptr)
+    {
+        mpHead = pNode;
+        deleteTest = true;
+        return deleteTest;
+    }
+    else
+    {
+        deleteList(pNode->getNextPtr());
+    }
+    delete pNode;
+
+    return deleteTest;
 }

@@ -97,5 +97,5 @@ void Node<T>::setData(const T newData)
 template<class T>
 void Node<T>::setNextPtr(Node<T>* const newPtr)
 {
-	mpLeft = newPtr;
+	mpNext = newPtr;
 }

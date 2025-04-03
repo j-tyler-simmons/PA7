@@ -125,7 +125,7 @@ string Data::getEmail() const
 	return mEmail;
 }
 
-int Data::getUnits() const
+string Data::getUnits() const
 {
 	return mUnits;
 }
@@ -170,7 +170,7 @@ void Data::setEmail(const string& newEmail)
 	mEmail = newEmail;
 }
 
-void Data::setUnits(const int newUnits)
+void Data::setUnits(const string& newUnits)
 {
 	mUnits = newUnits;
 }
@@ -178,6 +178,11 @@ void Data::setUnits(const int newUnits)
 void Data::setProgram(const string& newProgram)
 {
 	mProgram = newProgram;
+}
+
+void Data::setLevel(const string& newLevel)
+{
+	mLevel = newLevel;
 }
 
 void Data::setNumAbsences(const int newNumAbsences)

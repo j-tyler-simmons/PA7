@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <stack>
 using std::string;
@@ -25,7 +26,7 @@ class Data
 		int getIDNo() const;
 		string getName() const;
 		string getEmail() const;
-		int getUnits() const;
+		string getUnits() const;
 		string getProgram() const;
 		string getLevel() const;
 		int getNumAbsences() const;
@@ -35,8 +36,9 @@ class Data
 		void setIDNo(const int newID);
 		void setName(const string& newName);
 		void setEmail(const string& newEmail);
-		void setUnits(const int newUnits);
+		void setUnits(const string& newUnits);
 		void setProgram(const string& newProgram);
+		void setLevel(const string& newLevel);
 		void setNumAbsences(const int newNumAbsences);
 		void setAbsenceDates(const stack<string> newAbsenceDates);
 	private:
@@ -44,7 +46,7 @@ class Data
 		int mIDNo;
 		string mName;
 		string mEmail;
-		int mUnits;
+		string mUnits;
 		string mProgram;
 		string mLevel;
 		int mNumAbsences;
