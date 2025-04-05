@@ -1,3 +1,12 @@
+/******************************************************************************************
+* Programmer: Tyler Simmons
+* Course: Cpt S 122
+* Date: 4/4/2025
+* TA: Berkeley Conkling
+* Assignment: PA7
+******************************************************************************************/
+
+#pragma once
 #include "Data.hpp"
 
 Data::Data(int newRecord, int newID,
@@ -96,6 +105,7 @@ Data& Data::operator=(Data& rhs)
 	mUnits = rhs.mUnits;
 	mProgram = rhs.mProgram;
 	mLevel = rhs.mLevel;
+	mNumAbsences = rhs.mNumAbsences;
 	mAbsenceDates = rhs.mAbsenceDates;
 
 	return *this;
@@ -193,4 +203,15 @@ void Data::setNumAbsences(const int newNumAbsences)
 void Data::setAbsenceDates(const stack<string> newAbsenceDates)
 {
 	mAbsenceDates = newAbsenceDates;
+}
+
+void Data::pushAbsenceDate(const string& newDate)
+{
+	mAbsenceDates.push(newDate);
+}
+
+void Data::popAbsenceDate(string& storageStr)
+{
+	storageStr = mAbsenceDates.top();
+	mAbsenceDates.pop();
 }

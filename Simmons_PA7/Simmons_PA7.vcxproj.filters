@@ -43,5 +43,13 @@
     <None Include="classList.csv">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="masterList.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="report.csv">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

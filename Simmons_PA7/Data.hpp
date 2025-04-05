@@ -1,3 +1,11 @@
+/******************************************************************************************
+* Programmer: Tyler Simmons
+* Course: Cpt S 122
+* Date: 4/4/2025
+* TA: Berkeley Conkling
+* Assignment: PA7
+******************************************************************************************/
+
 #pragma once
 #include <iostream>
 #include <stack>
@@ -41,6 +49,11 @@ class Data
 		void setLevel(const string& newLevel);
 		void setNumAbsences(const int newNumAbsences);
 		void setAbsenceDates(const stack<string> newAbsenceDates);
+
+		//member functions
+		void pushAbsenceDate(const string& newDate);
+		void popAbsenceDate(string& storageStr);
+
 	private:
 		int mRecordNo;
 		int mIDNo;

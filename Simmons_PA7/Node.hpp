@@ -1,11 +1,10 @@
 /******************************************************************************************
 * Programmer: Tyler Simmons
 * Course: Cpt S 122
-* Date: 
+* Date: 4/4/2025
 * TA: Berkeley Conkling
 * Assignment: PA7
 ******************************************************************************************/
-
 #pragma once
 #include <iostream>
 using std::string;
@@ -84,14 +83,15 @@ Node<T>* Node<T>::getNextPtr() const
 template<class T>
 void Node<T>::setData(const T newData)
 {
-	mData.setRecordNo(newData.mRecordNo);
-	mData.setIDNo(newData.mIDNo);
-	mData.setName(newData.mName);
-	mData.setEmail(newData.mEmail);
-	mData.setUnits(newData.mData);
-	mData.setProgram(newData.mProgram);
-	mData.setNumAbsences(newData.mNumAbsences);
-	mData.setAbsenceDates(newData.mAbsenceDates);
+	mData.setRecordNo(newData.getRecordNo());
+	mData.setIDNo(newData.getIDNo());
+	mData.setName(newData.getName());
+	mData.setEmail(newData.getEmail());
+	mData.setUnits(newData.getUnits());
+	mData.setProgram(newData.getProgram());
+	mData.setLevel(newData.getLevel());
+	mData.setNumAbsences(newData.getNumAbsences());
+	mData.setAbsenceDates(newData.getAbsenceDates());
 }
 
 template<class T>
